@@ -7,9 +7,6 @@ module.exports = {
       fontFamily: {
         main: ["Rubik", "sans-serif"],
       },
-      margin: {
-        main: "300px",
-      },
     },
   },
   variants: {
