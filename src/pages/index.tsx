@@ -1,6 +1,5 @@
 import React from "react"
 import Head from "next/head"
-import Image from "next/image"
 import Header from "@components/Header"
 import Footer from "@components/Footer"
 
@@ -9,6 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Welcome</title>
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
           rel="stylesheet"
@@ -17,7 +17,8 @@ export default function Home() {
       <main>
         <Header />
         <div className="mt-36 flex justify-center items-center">
-          <Image
+          {/* The reason for not using `next/image` is due to the problems with using `next export` */}
+          <img
             src="https://i.imgur.com/AdnYSmu.gif"
             alt="Rick Astley"
             width={400}
