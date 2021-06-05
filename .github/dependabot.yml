@@ -10,5 +10,5 @@ updates:
       time: "09:00"
       # Use Bangladesh Standard Time (UTC +06:00)
       timezone: "Asia/Dhaka"
-      labels:
-        - "dependencies"
+    labels:
+      - "dependencies"
