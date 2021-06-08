@@ -6,7 +6,7 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "09:00"
       # Use Bangladesh Standard Time (UTC +06:00)
       timezone: "Asia/Dhaka"
