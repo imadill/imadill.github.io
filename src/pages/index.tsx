@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/image"
 import SEO from "@components/SEO"
 import Header from "@components/Header"
 import Footer from "@components/Footer"
@@ -10,10 +11,11 @@ export default function Home() {
       <main>
         <Header />
         <div className="mt-36 flex justify-center items-center">
-          {/* The reason for not using `next/image` is due to the problems with using `next export` */}
-          <img
-            src="https://i.imgur.com/AdnYSmu.gif"
+          <Image
+            src="/Rick.gif"
+            blurDataURL="data:image/gif;base64,LXHC1ko#.AM{-?bIM|ogWXj]V@of"
             alt="Rick Astley"
+            placeholder="blur"
             width={400}
             height={300}
           />
