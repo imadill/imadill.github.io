@@ -6,8 +6,9 @@ function SEO() {
     <div>
       <Head>
         <title>Welcome</title>
+        <meta name="description" content="Knoxo, A Developer Boi" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-        <link rel="canonical" href="https://knoxo.github.io" />
+        <link rel="canonical" href="https://www.knoxo.github.io" />
         {/* eslint-disable */}
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
@@ -17,7 +18,7 @@ function SEO() {
         <meta property="og:url" content="https://knoxo.github.io" />
         <meta property="og:title" content="Knoxo's Website" />
         <meta property="og:description" content="Knoxo, A Developer Boi" />
-        <meta property="og:image" content="https://i.imgur.com/C56x0zh.png" />
+        <meta property="og:image" content="/favicon.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:alt" content="Knoxo" />
         <meta property="og:image:width" content="420" />
