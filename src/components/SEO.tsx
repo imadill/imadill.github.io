@@ -8,10 +8,12 @@ function SEO() {
         <title>Welcome</title>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <link rel="canonical" href="https://knoxo.github.io" />
+        {/* eslint-disable */}
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
           rel="stylesheet"
         />
+        {/* eslint-enable */}
         <meta property="og:url" content="https://knoxo.github.io" />
         <meta property="og:title" content="Knoxo's Website" />
         <meta property="og:description" content="Knoxo, A Developer Boi" />

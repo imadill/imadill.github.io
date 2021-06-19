@@ -10,13 +10,16 @@ export default function Home() {
       <main>
         <Header />
         <div className="mt-36 flex justify-center items-center">
+          {/* TODO: Add a Loader to use `next/image` */}
           {/* The reason for not using `next/image` is due to the problems with using `next export` */}
+          {/* eslint-disable */}
           <img
             src="https://i.imgur.com/AdnYSmu.gif"
             alt="Rick Astley"
             width={400}
             height={300}
           />
+          {/* eslint-enable */}
         </div>
         <div className="mt-4 flex justify-center items-center">
           <h1 className="font-main sm:text-4xl text-3xl">
@@ -24,7 +27,7 @@ export default function Home() {
           </h1>
         </div>
         <p className="font-main text-center">
-          Even I don't know when it will finish
+          Even I don&apos;t know when it will finish
         </p>
         <div className="mt-12 text-center">
           <Footer />
