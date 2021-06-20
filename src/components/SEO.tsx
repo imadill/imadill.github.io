@@ -5,8 +5,9 @@ function SEO() {
   return (
     <div>
       <Head>
-        <title>Welcome</title>
+        <title>Knoxo&apos;s Website</title>
         <meta name="description" content="Knoxo, A Developer Boi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <link rel="canonical" href="https://www.knoxo.github.io" />
         {/* eslint-disable */}
