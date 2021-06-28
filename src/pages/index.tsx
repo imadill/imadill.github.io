@@ -10,16 +10,10 @@ export default function Home() {
       <main>
         <Header />
         <div className="mt-36 flex justify-center items-center">
-          {/* TODO: Add a Loader to use `next/image` */}
-          {/* The reason for not using `next/image` is due to the problems with using `next export` */}
-          {/* eslint-disable */}
-          <img
-            src="https://i.imgur.com/AdnYSmu.gif"
-            alt="Rick Astley"
-            width={400}
-            height={300}
-          />
-          {/* eslint-enable */}
+          <video autoPlay loop muted playsInline width={400} height={300}>
+            <source src="/Rick.webm" type="video/webm" />
+            <source src="/Rick.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="mt-4 flex justify-center items-center">
           <h1 className="font-main sm:text-4xl text-3xl">
