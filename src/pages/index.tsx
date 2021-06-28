@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "next/image"
 import SEO from "@components/SEO"
 import Header from "@components/Header"
 import Footer from "@components/Footer"
