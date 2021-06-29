@@ -1,7 +1,9 @@
 import React from "react"
-import SEO from "@components/SEO"
-import Header from "@components/Header"
-import Footer from "@components/Footer"
+import dynamic from "next/dynamic"
+
+const SEO = dynamic(() => import("@components/SEO"))
+const Header = dynamic(() => import("@components/Header"))
+const Footer = dynamic(() => import("@components/Footer"))
 
 export default function Home() {
   return (
