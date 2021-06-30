@@ -1,5 +1,7 @@
 import React from "react"
-import GitHubIcon from "@material-ui/icons/GitHub"
+import dynamic from "next/dynamic"
+
+const GitHubIcon = dynamic(() => import("@material-ui/icons/GitHub"))
 
 function Header() {
   return (

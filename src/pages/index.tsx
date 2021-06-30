@@ -8,7 +8,7 @@ const Footer = dynamic(() => import("@components/Footer"))
 export default function Home() {
   return (
     <>
-      <SEO />
+      <SEO title="Knoxo's Website" imageAlt="Knoxo" />
       <main>
         <Header />
         <div className="mt-36 flex justify-center items-center">
