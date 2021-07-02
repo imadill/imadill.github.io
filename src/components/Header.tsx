@@ -1,4 +1,3 @@
-import React from "react"
 import dynamic from "next/dynamic"
 
 const GitHubIcon = dynamic(() => import("@material-ui/icons/GitHub"))

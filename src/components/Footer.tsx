@@ -1,15 +1,10 @@
-import React from "react"
-
 function Footer() {
   return (
-    <div>
       <footer>
-        <p className="font-main">
-          &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights
-          Reserved.
+        <p className="mt-12 font-main text-center">
+          &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights Reserved.
         </p>
       </footer>
-    </div>
   )
 }
 
