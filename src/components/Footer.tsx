@@ -1,7 +1,11 @@
-function Footer() {
+interface Footer {
+  mt?: string
+}
+
+function Footer({mt}: Footer) {
   return (
       <footer>
-        <p className="font-main text-center">
+        <p className={`${mt} font-main text-center`}>
           &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights Reserved.
         </p>
       </footer>
