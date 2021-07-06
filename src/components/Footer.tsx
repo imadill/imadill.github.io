@@ -1,15 +1,14 @@
-import React from "react"
+interface Footer {
+  mt?: string
+}
 
-function Footer() {
+function Footer({mt}: Footer) {
   return (
-    <div>
       <footer>
-        <p className="font-main">
-          &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights
-          Reserved.
+        <p className={`${mt} font-main text-center`}>
+          &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights Reserved.
         </p>
       </footer>
-    </div>
   )
 }
 

@@ -1,6 +1,4 @@
-import React from "react"
 import dynamic from "next/dynamic"
-
 const SEO = dynamic(() => import("@components/SEO"))
 const Header = dynamic(() => import("@components/Header"))
 const Footer = dynamic(() => import("@components/Footer"))
@@ -25,9 +23,7 @@ export default function Home() {
         <p className="font-main text-center">
           Even I don&apos;t know when it will finish
         </p>
-        <div className="mt-12 text-center">
-          <Footer />
-        </div>
+        <Footer mt="mt-12" />
       </main>
     </>
   )
