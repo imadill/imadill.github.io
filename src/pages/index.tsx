@@ -23,7 +23,7 @@ export default function Home() {
         <p className="font-main text-center">
           Even I don&apos;t know when it will finish
         </p>
-        <Footer mt="12" />
+        <Footer mt="mt-12" />
       </main>
     </>
   )
