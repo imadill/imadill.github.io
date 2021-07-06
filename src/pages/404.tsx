@@ -21,10 +21,10 @@ function Custom404() {
           {/* eslint-enable */}
           <h5
             className="absolute text-gray-500
-              bottom-12 right-1
-              sm:bottom-16 sm:right-2
-              md:right-10
-              lg:right-32
+              bottom-12 right-3
+              sm:bottom-16 sm:right-12
+              md:right-32
+              lg:right-60
               xl:right-96"
           >
             <a className="hover:underline" href="http://www.freepik.com">
@@ -32,7 +32,7 @@ function Custom404() {
             </a>
           </h5>
         </div>
-        <Footer mt="mt-0" />
+        <Footer />
       </main>
     </>
   )
