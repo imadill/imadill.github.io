@@ -23,7 +23,7 @@ function SEO({ title, imageAlt }: SEO) {
         <meta property="og:image:height" content="420" />
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Knoxo_dev" />
+        <meta name="twitter:site" content="@Knox69420" />
       </Head>
     </div>
   )
