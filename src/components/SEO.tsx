@@ -22,8 +22,12 @@ function SEO({ title, imageAlt }: SEO) {
         <meta property="og:image:width" content="420" />
         <meta property="og:image:height" content="420" />
         {/* Twitter Card Tags */}
+        <meta name="twitter:creator" content="@Knox69420" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Knox69420" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content="Knoxo, A Developer Boi" />
+        <meta name="twitter:image" content="https://knoxo.github.io/favicon.png" />
+        <meta name="twitter:image:alt" content={imageAlt} />
       </Head>
     </div>
   )
