@@ -1,4 +1,4 @@
-# [Knoxo](https://github.com/Knoxo)'s Website
+# [Knoxo](https://github.com/Knoxo)'s Portfolio
 
 This Repo contains the files of [knoxo.github.io](https://knoxo.github.io).
 
