@@ -9,6 +9,10 @@ export default class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="google-site-verification"
+            content="FwLnZ_Rbgez35FirbyBJ_GxKROQLNFA0H1cikgZFb5I"
+          />
         </Head>
         <body>
           <Main />
