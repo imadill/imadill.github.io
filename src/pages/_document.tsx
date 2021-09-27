@@ -1,4 +1,6 @@
+/* eslint-disable */
 import Document, { Html, Head, Main, NextScript } from "next/document"
+/* eslint-enable */
 
 export default class CustomDocument extends Document {
   render() {
