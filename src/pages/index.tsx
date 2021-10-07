@@ -10,6 +10,7 @@ export default function Home() {
     const sound = new Howl({
       src: ["/Rick.mp3"],
       loop: true,
+      html5: true,
     })
 
     sound.play()
