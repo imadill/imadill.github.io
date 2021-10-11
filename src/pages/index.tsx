@@ -11,6 +11,7 @@ export default function Home() {
       src: ["/Rick.mp3"],
       loop: true,
       html5: true,
+      preload: true,
     })
 
     sound.play()
