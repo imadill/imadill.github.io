@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/styles", "virtual:2b12893cfda812bb2a9d0c32c4a108a4b10fb78d49abea89d73c5b3e7f80e9cf4f8d030cf3448306e074eda009e6d384d52e8d1a534b239f0109cdcc26626760#npm:5.0.1"],
             ["@next/bundle-analyzer", "npm:11.1.2"],
             ["@types/howler", "npm:2.2.4"],
+            ["@types/node", "npm:16.11.4"],
             ["@types/react", "npm:17.0.30"],
             ["autoprefixer", "virtual:2b12893cfda812bb2a9d0c32c4a108a4b10fb78d49abea89d73c5b3e7f80e9cf4f8d030cf3448306e074eda009e6d384d52e8d1a534b239f0109cdcc26626760#npm:10.3.7"],
             ["components", "link:./src/components::locator=knoxo.github.io%40workspace%3A."],
@@ -1033,6 +1034,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
+        ["npm:16.11.4", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.4-f4c998d94a-96e08c0f8b.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:16.11.4"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:16.3.1", {
           "packageLocation": "./.yarn/cache/@types-node-npm-16.3.1-c090cf2395-2a9d69db32.zip/node_modules/@types/node/",
           "packageDependencies": [
@@ -4499,6 +4507,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/styles", "virtual:2b12893cfda812bb2a9d0c32c4a108a4b10fb78d49abea89d73c5b3e7f80e9cf4f8d030cf3448306e074eda009e6d384d52e8d1a534b239f0109cdcc26626760#npm:5.0.1"],
             ["@next/bundle-analyzer", "npm:11.1.2"],
             ["@types/howler", "npm:2.2.4"],
+            ["@types/node", "npm:16.11.4"],
             ["@types/react", "npm:17.0.30"],
             ["autoprefixer", "virtual:2b12893cfda812bb2a9d0c32c4a108a4b10fb78d49abea89d73c5b3e7f80e9cf4f8d030cf3448306e074eda009e6d384d52e8d1a534b239f0109cdcc26626760#npm:10.3.7"],
             ["components", "link:./src/components::locator=knoxo.github.io%40workspace%3A."],

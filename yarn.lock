@@ -749,6 +749,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^16.11.4":
+  version: 16.11.4
+  resolution: "@types/node@npm:16.11.4"
+  checksum: 96e08c0f8bb17601c18640a8eac61e2f236fe0c8a6b01a9221c10749157358fb29fdef4b5e264f72559e72f9830e6093f3ab5fef2df90afdad562ffa45ac534c
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -3703,6 +3710,7 @@ __metadata:
     "@mui/styles": ^5.0.1
     "@next/bundle-analyzer": ^11.1.2
     "@types/howler": ^2.2.4
+    "@types/node": ^16.11.4
     "@types/react": 17.0.30
     autoprefixer: ^10.3.7
     components: "link:./src/components"
