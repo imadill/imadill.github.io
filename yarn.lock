@@ -749,6 +749,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^16.11.4":
+  version: 16.11.4
+  resolution: "@types/node@npm:16.11.4"
+  checksum: 96e08c0f8bb17601c18640a8eac61e2f236fe0c8a6b01a9221c10749157358fb29fdef4b5e264f72559e72f9830e6093f3ab5fef2df90afdad562ffa45ac534c
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -1695,6 +1702,12 @@ __metadata:
   checksum: 59715f2fc456a73f68826285718503340b9f0dd89bfffc42749906c5cf3d4277ef11ef1cca0350d0e79204f00f1f6d83851ececc9095dc88512a697ac0b9bdcb
   languageName: node
   linkType: hard
+
+"components@link:./src/components::locator=knoxo.github.io%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "components@link:./src/components::locator=knoxo.github.io%40workspace%3A."
+  languageName: node
+  linkType: soft
 
 "concat-map@npm:0.0.1":
   version: 0.0.1
@@ -3697,8 +3710,10 @@ __metadata:
     "@mui/styles": ^5.0.1
     "@next/bundle-analyzer": ^11.1.2
     "@types/howler": ^2.2.4
+    "@types/node": ^16.11.4
     "@types/react": 17.0.30
     autoprefixer: ^10.3.7
+    components: "link:./src/components"
     cross-env: ^7.0.3
     eslint: ^7.32.0
     eslint-config-next: ^11.1.2
@@ -3709,6 +3724,7 @@ __metadata:
     prettier: 2.4.1
     react: 17.0.2
     react-dom: 17.0.2
+    styles: "link:./src/styles"
     tailwindcss: ^2.2.17
     typescript: ^4.4.4
   languageName: unknown
@@ -5791,6 +5807,12 @@ resolve@^2.0.0-next.3:
   checksum: a4260ba093086ed50c903ce1e4e564c4162d041238c02d8f9f8d1b259224f54ac49b49e9b4a6e3396c27e688dd870da7552c35ea9622c25aaa4777b2df64bb26
   languageName: node
   linkType: hard
+
+"styles@link:./src/styles::locator=knoxo.github.io%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "styles@link:./src/styles::locator=knoxo.github.io%40workspace%3A."
+  languageName: node
+  linkType: soft
 
 "stylis-rule-sheet@npm:0.0.10":
   version: 0.0.10

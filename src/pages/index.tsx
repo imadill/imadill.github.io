@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import { Howl } from "howler"
 import dynamic from "next/dynamic"
-const SEO = dynamic(() => import("@components/SEO"))
-const Header = dynamic(() => import("@components/Header"))
-const Footer = dynamic(() => import("@components/Footer"))
+const SEO = dynamic(() => import("components/SEO"))
+const Header = dynamic(() => import("components/Header"))
+const Footer = dynamic(() => import("components/Footer"))
 
 export default function Home() {
   useEffect(() => {

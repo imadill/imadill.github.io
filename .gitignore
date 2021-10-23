@@ -12,9 +12,10 @@
 /.next/
 /out/
 
-# yarn v2
-.pnp.*
+
+# yarn with zero-installs
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
