@@ -12,6 +12,7 @@
 /.next/
 /out/
 
+
 # yarn with zero-installs
 .yarn/*
 !.yarn/cache
