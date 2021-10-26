@@ -11,6 +11,7 @@ function SEO({ title, imageAlt }: SEO) {
       <Head>
         <title>{title}</title>
         <meta name="description" content="Knoxo, A Developer Boi" />
+        <meta name="robots" content="noindex" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <meta property="og:url" content="https://knoxo.github.io" />
