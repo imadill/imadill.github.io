@@ -7,7 +7,14 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "husky install",
+    "commit": "git-cz",
     "analyze": "cross-env ANALYZE=true yarn build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
@@ -25,14 +32,21 @@
     "styles": "link:./src/styles"
   },
   "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/cz-commitlint": "^14.1.0",
     "@types/howler": "^2.2.4",
     "@types/node": "^16.11.6",
     "@types/react": "17.0.33",
     "autoprefixer": "^10.4.0",
+    "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^12.0.1",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "inquirer": "^8.2.0",
     "postcss": "^8.3.11",
     "prettier": "2.4.1",
     "tailwindcss": "^2.2.17",
