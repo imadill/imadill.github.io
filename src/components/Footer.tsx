@@ -1,16 +1,16 @@
-interface Footer {
-  mt?: string
+interface mt {
+  mt: string;
 }
 
-function Footer({ mt }: Footer) {
+const Footer = ({ mt }: mt) => {
   return (
-    <footer>
+    <div>
       {/* prettier-ignore */}
       <p className={`${mt} font-main text-center`} translate="no">
         &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights Reserved.
       </p>
-    </footer>
-  )
-}
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;

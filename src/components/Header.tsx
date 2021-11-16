@@ -1,20 +1,16 @@
-import { Tooltip, IconButton, Zoom } from "@mui/material"
-import { GitHub as GitHubIcon } from "@mui/icons-material"
-
-function Header() {
+const Header = () => {
   return (
-    <header>
-      <div className="mt-2 flex justify-center items-center">
-        <a href="http://github.com/Knoxo/knoxo.github.io">
-          <Tooltip TransitionComponent={Zoom} title="Web Repo">
-            <IconButton>
-              <GitHubIcon fontSize="large" sx={{ color: "common.black" }} />
-            </IconButton>
-          </Tooltip>
-        </a>
-      </div>
-    </header>
-  )
-}
+    <div className="mt-4 flex justify-center items-center">
+      <a href="https://github.com/Knoxo/knoxo.github.io">
+        <img
+          title="Web Repo"
+          height="35"
+          width="35"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg"
+        />
+      </a>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

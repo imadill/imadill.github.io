@@ -1,0 +1,43 @@
+---
+// Component Imports
+import Main from "../components/Main.jsx";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
+import SEO from "../components/SEO.jsx";
+
+// Component Script:
+---
+
+<html lang="en">
+  <head>
+    <SEO
+      title="Welcome"
+      imageAlt="Welcome"
+      astro={Astro.resolve("../styles/global.css")}
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.core.min.js"
+    ></script>
+    <script>
+      const sound = new Howl({
+        src: ["/assets/Rick.mp3"],
+        loop: true,
+        html5: true,
+        preload: true,
+      });
+
+      sound.play();
+    </script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <Header />
+      </header>
+      <Main />
+      <footer>
+        <Footer mt="mt-12" />
+      </footer>
+    </main>
+  </body>
+</html>
