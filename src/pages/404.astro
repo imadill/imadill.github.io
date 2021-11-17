@@ -1,0 +1,33 @@
+---
+// Component Imports
+import Custom404 from "../components/404-component.tsx";
+import Header from "../components/Header.tsx";
+import Footer from "../components/Footer.tsx";
+import SEO from "../components/SEO.tsx";
+
+// Component Script:
+---
+
+<html lang="en">
+  <head>
+    <SEO
+      title="404 | Page Not Found"
+      imageAlt="404 | Page Not Found"
+      astro={Astro.resolve("../styles/global.css")}
+    />
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <Header />
+      </header>
+      <Custom404 />
+      <footer>
+        <Footer mt="mt-[98px]" />
+      </footer>
+    </main>
+  </body>
+</html>
