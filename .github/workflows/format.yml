@@ -19,6 +19,6 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.0
         with:
-          # This part is also where you can pass other options, for example:
+          prettier_plugins: prettier-plugin-astro
           prettier_options: --write **/*.{astro,js,jsx,svelte,ts,tsx,vue,html,yml,yaml,json,md}
           only_changed: True
