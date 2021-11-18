@@ -25,6 +25,6 @@
     }
   },
   "lint-staged": {
-    "*.{astro,js,jsx,svelte,ts,tsx,vue,html,yml,yaml,json,md}": "yarn prettier -w ."
+    "*.{astro,js,jsx,svelte,ts,tsx,vue,html,yml,yaml,json,md}": "yarn prettier -w"
   }
 }
