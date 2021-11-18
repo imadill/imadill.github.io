@@ -6,14 +6,25 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format": "yarn prettier -w ."
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@astrojs/renderer-react": "^0.2.2",
     "astro": "^0.20.12",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.0.2",
+    "prettier": "^2.4.1",
     "prettier-plugin-astro": "^0.0.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tailwindcss": "^2.2.19"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{astro,js,jsx,svelte,ts,tsx,vue}": "yarn prettier -w ."
   }
 }
