@@ -14,7 +14,7 @@ const Main = () => {
         Even I don&apos;t know when it will finish
       </p>
     </>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

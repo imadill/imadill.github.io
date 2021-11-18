@@ -1,7 +1,7 @@
 interface SEO {
-  title: string;
-  imageAlt: string;
-  astro: string;
+  title: string
+  imageAlt: string
+  astro: string
 }
 
 function SEO({ title, imageAlt, astro }: SEO) {
@@ -32,7 +32,7 @@ function SEO({ title, imageAlt, astro }: SEO) {
       />
       <meta name="twitter:image:alt" content={imageAlt} />
     </>
-  );
+  )
 }
 
-export default SEO;
+export default SEO

@@ -1,7 +1,9 @@
 name: Build Check
 on:
-  pull_request:
-    branches: [master]
+  workflow_run:
+    workflows: ["Prettier"]
+    types:
+      - completed
 
 jobs:
   build-check:
@@ -13,9 +15,6 @@ jobs:
 
       - name: Install dependencies
         run: rm -rf node_modules && yarn install --frozen-lockfile
-
-      - name: Format
-        run: yarn format
 
       - name: Build
         run: |
