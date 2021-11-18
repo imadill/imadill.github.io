@@ -1,5 +1,5 @@
 interface mt {
-  mt: string;
+  mt: string
 }
 
 const Footer = ({ mt }: mt) => {
@@ -10,7 +10,7 @@ const Footer = ({ mt }: mt) => {
         &copy; <a className="hover:underline" href="https://github.com/Knoxo"> Knoxo</a>. All Rights Reserved.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

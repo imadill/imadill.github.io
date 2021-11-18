@@ -12,7 +12,7 @@ const Custom404 = () => {
         ></lottie-player>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Custom404;
+export default Custom404
