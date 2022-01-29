@@ -4,7 +4,7 @@ interface SEO {
   astro: string
 }
 
-function SEO({ title, imageAlt, astro }: SEO) {
+function SEO({ title, imageAlt }: SEO) {
   return (
     <>
       <title>{title}</title>
@@ -12,7 +12,6 @@ function SEO({ title, imageAlt, astro }: SEO) {
       <meta name="robots" content="noindex" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-      <link rel="stylesheet" href={astro} />
       <meta property="og:url" content="https://knoxo.github.io" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content="Knoxo, A Developer Boi" />

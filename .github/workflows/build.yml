@@ -17,9 +17,9 @@ jobs:
           fetch-depth: 0
 
       - name: Prettify code
-        uses: suda/prettier_action@v3.4-rc.1
+        uses: creyD/prettier_action@v4.2
         with:
-          prettier_plugins: prettier-plugin-astro
+          prettier_plugins: prettier-plugin-astro prettier-plugin-tailwindcss
           prettier_options: --write **/*.{astro,js,jsx,svelte,ts,tsx,vue,html,yml,yaml,json,md}
           only_changed: True
 

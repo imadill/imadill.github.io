@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="mt-4 flex justify-center items-center">
+    <div className="mt-4 flex items-center justify-center">
       <a href="https://github.com/Knoxo/knoxo.github.io">
         <img
           title="Web Repo"

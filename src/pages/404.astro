@@ -10,21 +10,23 @@ import SEO from "../components/SEO.tsx"
 
 <html lang="en">
   <head>
-    <SEO
-      title="404 | Page Not Found"
-      imageAlt="404 | Page Not Found"
-      astro={Astro.resolve("../styles/global.css")}
-    />
+    <style global>
+      @import "../styles/global.css";
+    </style>
+    <SEO title="404 | Page Not Found" imageAlt="404 | Page Not Found" />
+    <meta charset="UTF-8" />
     <script
       src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
     ></script>
   </head>
   <body>
     <main>
+      <!-- prettier-ignore -->
       <header>
         <Header />
       </header>
       <Custom404 />
+      <!-- prettier-ignore -->
       <footer>
         <Footer mt="mt-[98px]" />
       </footer>
