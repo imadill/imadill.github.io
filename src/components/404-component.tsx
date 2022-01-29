@@ -1,7 +1,7 @@
 const Custom404 = () => {
   return (
     <div>
-      <div className="mt-36 flex justify-center items-center">
+      <div className="mt-36 flex items-center justify-center">
         <lottie-player
           src="https://assets5.lottiefiles.com/packages/lf20_GIyuXJ.json"
           background="transparent"
